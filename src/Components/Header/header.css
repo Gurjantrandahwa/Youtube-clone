@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.youtube-logo {
+    height: 70px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-input {
+    display: flex;
+    width: 40%;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.header-input > input {
+    border: none;
+    flex: 1;
+    padding: 10px;
+    /*height: 30px;*/
+    outline: none !important;
+}
+
+.header-input-search-button {
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    cursor: pointer;
+    color: gray;
+    padding: 5px;
+
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.header-icons > .MuiSvgIcon-root {
+
+    margin-right: 20px;
+
+}
