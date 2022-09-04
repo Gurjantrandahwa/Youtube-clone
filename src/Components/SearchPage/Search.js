@@ -2,7 +2,7 @@ import React from "react";
 import "./search.css";
 import {TuneOutlined} from "@mui/icons-material";
 import ChannelRow from "./ChannelRow/ChannelRow";
-import img from "../../RecommendVideo/Video/Images/img.png"
+import img from "../RecommendVideo/Video/Images/img.png"
 import VideoRow from "./VideoRow/VideoRow";
 
 function Search() {

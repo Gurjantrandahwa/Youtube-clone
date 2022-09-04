@@ -1,7 +1,7 @@
 import './App.css';
 import Header from "./Components/Header/Header";
 import Sidebar from "./Components/Sidebar/Sidebar";
-import RecommendVideo from "./RecommendVideo/RecommendVideo";
+import RecommendVideo from "./Components/RecommendVideo/RecommendVideo";
 import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
 import Search from "./Components/SearchPage/Search";
 
