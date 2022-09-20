@@ -1,74 +1,83 @@
 import React from "react";
 import "./recommendVideo.css";
 import Video from "./Video/Video";
-import img from "./Video/Images/img.png"
+import img from "./Video/Images/img.png";
+import img_1 from "./Video/Images/img_1.png";
+import img_2 from "./Video/Images/img_2.png";
+import img_3 from "./Video/Images/img_3.png";
+import img_4 from "./Video/Images/img_4.png";
+import img_5 from "./Video/Images/img_5.png";
+import img_6 from "./Video/Images/img_6.png";
+import img_7 from "./Video/Images/img_7.png";
+import img_8 from "./Video/Images/img_8.png";
+
 
 function RecommendVideo() {
     return <div className={"recommend-video"}>
-        {/*<h2>Recommended</h2>*/}
+        <h2>Recommended</h2>
         <div className={"recommend-video-videos"}>
             <Video title={"Become a something in next 10 min"}
-                   views={"2M views"}
-                   timestamp={"3 days ago"}
+                   views={"2.6M views"}
+                   timestamp={"9 days ago"}
                    channelImage={img}
                    channel={"Sonny"}
                    image={img}
             />
-            <Video title={"Become a something in next 10 min"}
-                   views={"2M views"}
+            <Video title={"Let's discuss something for paperwork"}
+                   views={"2.5M views"}
                    timestamp={"3 days ago"}
-                   channelImage={img}
+                   channelImage={img_1}
                    channel={"Sonny"}
-                   image={img}
+                   image={img_1}
             />
-            <Video title={"Become a something in next 10 min"}
+            <Video title={"Dark green forest with sunset"}
                    views={"2M views"}
                    timestamp={"3 days ago"}
-                   channelImage={img}
+                   channelImage={img_2}
                    channel={"Sonny"}
-                   image={img}
+                   image={img_2}
             />
-            <Video title={"Become a something in next 10 min"}
+            <Video title={"A store with all facilities"}
                    views={"2M views"}
                    timestamp={"3 days ago"}
-                   channelImage={img}
+                   channelImage={img_3}
                    channel={"Sonny"}
-                   image={img}
+                   image={img_3}
             />
-            <Video title={"Become a something in next 10 min"}
-                   views={"2M views"}
-                   timestamp={"3 days ago"}
-                   channelImage={img}
+            <Video title={"Technology give the future"}
+                   views={"1.9M views"}
+                   timestamp={"1 days ago"}
+                   channelImage={img_4}
                    channel={"Sonny"}
-                   image={img}
+                   image={img_4}
             />
-            <Video title={"Become a something in next 10 min"}
-                   views={"2M views"}
+            <Video title={"A great singing concert"}
+                   views={"2.6M views"}
                    timestamp={"3 days ago"}
-                   channelImage={img}
+                   channelImage={img_5}
                    channel={"Sonny"}
-                   image={img}
+                   image={img_5}
             />
-            <Video title={"Become a something in next 10 min"}
+            <Video title={"Some exercise At GYM with friends"}
                    views={"2M views"}
                    timestamp={"3 days ago"}
-                   channelImage={img}
+                   channelImage={img_6}
                    channel={"Sonny"}
-                   image={img}
+                   image={img_6}
             />
-            <Video title={"Become a something in next 10 min"}
+            <Video title={"Become a something for health"}
                    views={"2M views"}
                    timestamp={"3 days ago"}
-                   channelImage={img}
+                   channelImage={img_7}
                    channel={"Sonny"}
-                   image={img}
+                   image={img_7}
             />
-            <Video title={"Become a something in next 10 min"}
+            <Video title={"Photography is passion for me"}
                    views={"2M views"}
                    timestamp={"3 days ago"}
-                   channelImage={img}
+                   channelImage={img_8}
                    channel={"Sonny"}
-                   image={img}
+                   image={img_8}
             />
         </div>
     </div>
