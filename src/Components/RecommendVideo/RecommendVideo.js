@@ -1,15 +1,15 @@
 import React from "react";
 import "./recommendVideo.css";
-import Video from "./Video/Video";
-import img from "./Video/Images/img.png";
-import img_1 from "./Video/Images/img_1.png";
-import img_2 from "./Video/Images/img_2.png";
-import img_3 from "./Video/Images/img_3.png";
-import img_4 from "./Video/Images/img_4.png";
-import img_5 from "./Video/Images/img_5.png";
-import img_6 from "./Video/Images/img_6.png";
-import img_7 from "./Video/Images/img_7.png";
-import img_8 from "./Video/Images/img_8.png";
+import Video from "../Video/Video";
+import img from "../Images/img.png";
+import img_1 from "../Images/img_1.png";
+import img_2 from "../Images/img_2.png";
+import img_3 from "../Images/img_3.png";
+import img_4 from "../Images/img_4.png";
+import img_5 from "../Images/img_5.png";
+import img_6 from "../Images/img_6.png";
+import img_7 from "../Images/img_7.png";
+import img_8 from "../Images/img_8.png";
 
 
 function RecommendVideo() {

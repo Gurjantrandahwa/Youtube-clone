@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./header.css";
-import img from "./img.png"
+import img from "./logo.png"
 import {
     KeyboardVoice,
     Menu,
@@ -31,16 +31,13 @@ function Header() {
             <Link to={`/search/${input}`}>
                 <Search className={"header-input-search-button"}/>
             </Link>
+            {/*<IconButton> <KeyboardVoice/></IconButton>*/}
         </div>
-        {/*<div>*/}
-        {/*    /!*<IconButton> <KeyboardVoice/></IconButton>*!/*/}
-        {/*</div>*/}
         <div className={"header-icons"}>
             <VideoCallOutlined/>
             <NotificationsOutlined/>
             <Avatar/>
         </div>
-
     </div>
 }
 

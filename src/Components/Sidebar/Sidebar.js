@@ -1,6 +1,6 @@
 import React from "react";
 import "./sidebar.css";
-import SidebarRow from "./SidebarRow/SidebarRow";
+import SidebarRow from "../SidebarRow/SidebarRow";
 import {
     ExpandMoreOutlined,
     History,
@@ -14,7 +14,7 @@ import {
 
 function Sidebar() {
     return <div className={"sidebar"}>
-        <SidebarRow selected Icon={Home} title={"Home"}/>
+        <SidebarRow Icon={Home} title={"Home"}/>
         <SidebarRow Icon={Whatshot} title={"Trending"}/>
         <SidebarRow Icon={Subscriptions} title={"Subscription"}/>
         <hr/>
